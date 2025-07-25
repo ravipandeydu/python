@@ -9,3 +9,4 @@ def custom_reduce(func, iterable):
     for x in iterable[1:]:
         result = func(result, x)
     return result
+
